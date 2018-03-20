@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMarshal.cs" />
+    <Compile Include="IProtocol.cs" />
+    <Compile Include="MarshalException.cs" />
+    <Compile Include="Octets.cs" />
+    <Compile Include="OctetsStream.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
