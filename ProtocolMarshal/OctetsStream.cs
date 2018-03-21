@@ -7,9 +7,7 @@ namespace ProtocolMarshal
     {
         #region private members
 
-        private static readonly int MaxSpare = 16384;
-        private int _pos = 0;
-        private int _tranpos = 0;
+        private int _pos;
 
         #endregion
 

@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\MessageEntity.cs" />
+    <Compile Include="Demo\MessageRequest.cs" />
+    <Compile Include="Demo\MessageResponse.cs" />
+    <Compile Include="Demo\ProtocolRequest.cs" />
+    <Compile Include="Demo\ProtocolResponse.cs" />
     <Compile Include="IMarshal.cs" />
     <Compile Include="IProtocol.cs" />
     <Compile Include="MarshalException.cs" />
