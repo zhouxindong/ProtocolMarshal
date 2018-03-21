@@ -51,6 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Demo\ProtocolResponseTests.cs" />
     <Compile Include="OctetsStreamTests.cs" />
     <Compile Include="OctetsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

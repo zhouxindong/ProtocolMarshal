@@ -5,6 +5,6 @@
         byte[] ToBytes();
         void ParseFrom(byte[] stream);
         int GetMaxSize();
-        int GetType();
+        int GetProtocolType();
     }
 }
